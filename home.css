@@ -139,3 +139,13 @@ footer {
   margin-left: 20px;
   font-size: 10px;
 }
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
